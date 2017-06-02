@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.envelope_holder{width:50px;height:50px;}
+	.envelope{fill:none;stroke:#CCCCCC;stroke-width:0.25;stroke-miterlimit:10;stroke-dasharray: 500; animation: envelope_ani 10s forwards; webkit-animation-delay: 0s; animation-delay: 0s;}
+
+	@keyframes envelope_ani {
+	  0% {
+        opacity: 0;
+		stroke-dashoffset: 500;
+	  }
+	  1% {
+	  	opacity: 1;
+	  }
+	  100% {
+	  	opacity:1;
+		stroke-dashoffset: 0;
+	  }
+	}
+</style>
+<g class="envelope_holder">
+	<rect x="2.2" y="20" class="envelope" width="95.6" height="60"/>
+	<polyline class="envelope" points="2.2,20 51.1,58 97.8,20 	"/>
+	<line class="envelope" x1="64.5" y1="47.2" x2="97.8" y2="80"/>
+	<line class="envelope" x1="2.2" y1="80" x2="37.3" y2="47.2"/>
+</g>
+</svg>
